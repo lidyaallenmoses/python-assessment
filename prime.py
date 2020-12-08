@@ -5,4 +5,5 @@ for n in range(start,start+100):
 			if(n % i) == 0:
 				break
 		else:
-			print(n)
+			print(n, end=" ")
+			
